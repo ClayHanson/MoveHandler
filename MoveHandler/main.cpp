@@ -23,7 +23,7 @@ struct Move
 };
 
 typedef void (__fastcall *Player__processTick_Type)(void *, int, const Move *);
-Player__processTick_Type Player__processTick = (Player__processTick_Type)0x00531A90;
+Player__processTick_Type Player__processTick = (Player__processTick_Type)0x00531A80;
 
 typedef void (*Con__printf_Type)(const char *format, ...);
 Con__printf_Type Con__printf = (Con__printf_Type)0x004A87F0;
